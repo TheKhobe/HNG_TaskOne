@@ -11,4 +11,4 @@ const date = new Date();
 let ms = date.getTime()
 document.getElementById('utcTime').innerHTML = ms;
 }
-utcTime();
+  setInterval(utcTime, 1000);
